@@ -23,7 +23,6 @@ var isStudent = false; //Boolean Variable
 var firstName = "David";
 
 var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
-
 // Arrays
 
 var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
@@ -43,3 +42,12 @@ console.log(a);
 var yearBorn = 1983;
 var age = 2013 - yearBorn - 1;
 console.log(age);
+//expressions - arithmatic operations
+
+//area of the triangle is half of the width times the height
+
+var width = 4;
+var height = 5;
+var area = width * height/2;
+console.log(area);
+
