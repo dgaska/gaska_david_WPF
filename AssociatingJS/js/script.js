@@ -64,4 +64,24 @@ var quiz4 = 80;
 // the average is the sum of the items divided by the number of items
 var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
 console.log(average);
+//arrays in expressions
+
+var orangeBins = [234, 567, 883];
+
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log(total);
+//Concatenating combining strings
+
+var firstName = "David";
+var lastName = "Gaska";
+var fullName = firstName + " " + lastName;
+
+console.log(fullName);
+
+var a = "6";
+var b = "7";
+
+var result = a + b;
+console.log(result);
+
 
