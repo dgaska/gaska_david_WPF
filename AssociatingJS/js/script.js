@@ -50,4 +50,8 @@ var width = 4;
 var height = 5;
 var area = width * height/2;
 console.log(area);
+//Expressions = Modulo
+
+var remainder = 32 % 10;
+console.log(remainder);
 
