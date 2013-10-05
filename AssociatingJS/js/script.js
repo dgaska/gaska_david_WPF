@@ -83,5 +83,18 @@ var b = "7";
 
 var result = a + b;
 console.log(result);
+//Casting 
 
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
+
+var areaCode = 262;
+var firstPart = 408;
+var secPart = 1769;
+//(262)408-1769
+
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart)+ "-" + String(secPart);
+console.log(phoneNo);
+//assignment Operators
 
