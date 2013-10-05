@@ -38,3 +38,8 @@ var a = 2; //sets up our variable a and defines it with 2
 var b;
 a = a + 3; //add 3 to a
 console.log(a);
+//expressions - age example
+
+var yearBorn = 1983;
+var age = 2013 - yearBorn - 1;
+console.log(age);
