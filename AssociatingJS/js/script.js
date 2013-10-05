@@ -23,3 +23,12 @@ var isStudent = false; //Boolean Variable
 var firstName = "David";
 
 var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
+
+// Arrays
+
+var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
+
+muppetNames[1] = "Rizzo"; //change indez #1 to Rizzo
+muppetNames[2] = "Fozzy"; 
+
+console.log(muppetNames[0]);
