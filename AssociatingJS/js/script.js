@@ -32,3 +32,9 @@ muppetNames[1] = "Rizzo"; //change indez #1 to Rizzo
 muppetNames[2] = "Fozzy"; 
 
 console.log(muppetNames[0]);
+//experessions
+
+var a = 2; //sets up our variable a and defines it with 2
+var b;
+a = a + 3; //add 3 to a
+console.log(a);
