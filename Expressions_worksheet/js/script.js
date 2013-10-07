@@ -8,4 +8,6 @@ const dogAge = 7; // a dog's age is 7 times that of its age in human years.
 
 var sparkysDogAge = sparkysAge * dogAge; // The formula to figure sparky's age in dog years.
 
-console.log(sparkysDogAge);
+var sparkysResult = "Sparky is" + sparkysAge + "human years which is" + sparkysDogAge + "in dog years."
+
+console.log(sparkysResult);
