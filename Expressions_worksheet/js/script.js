@@ -34,9 +34,9 @@ var totalSlices = pizzas * slices; // total number of slices.
 
 var remainder = totalSlices % slicesAte; // slices left over for Sparky.
 
-var sparkysSlices = "Sparky got" + " " + remainder + " " + "slices of pizza."
+var sparkysSlices = "Sparky got" + " " + remainder + " " + "slices of pizza." // printed result
 
-console.log(sparkysSlices);
+console.log(sparkysSlices); // printed result using console.log
 
 // Average Shopping Bill
 
@@ -46,6 +46,18 @@ const totalBills = bills[0] + bills[1] + bills[2] + bills[3] + bills[4] //total 
 
 var weeklyAverage = totalBills/5; // weekly average on groceries
 
-var budget = "You have spent a total of $" + totalBills + " " + "on groceries over 5 weeks. That is an average of $" + weeklyAverage + " " + "per week."
+var budget = "You have spent a total of $" + totalBills + " " + "on groceries over 5 weeks. That is an average of $" + weeklyAverage + " " + "per week." // printed result
 
-console.log(budget);
+console.log(budget); //console.log printed result
+
+// Discount
+
+const item = " 16gb iPad with retina display";// item despcription
+const orignalPrice = 599; // original price of item
+var discount = 15; // percentage discount
+var salesTax = 5; // sales tax percentage
+
+var discountAmount = (discount/100) * orignalPrice; 
+
+console.log(discountAmount);
+
