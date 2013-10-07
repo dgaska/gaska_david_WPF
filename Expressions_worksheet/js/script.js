@@ -37,3 +37,13 @@ var remainder = totalSlices % slicesAte; // slices left over for Sparky.
 var sparkysSlices = "Sparky got" + " " + remainder + " " + "slices of pizza."
 
 console.log(sparkysSlices);
+
+// Average Shopping Bill
+
+var bills = [86, 104, 93, 150, 98]; // five weekly grocery bills.
+
+const totalBills = bills[0] + bills[1] + bills[2] + bills[3] + bills[4] //total of all items in the array
+
+var average = totalBills/5;
+
+console.log(average);
