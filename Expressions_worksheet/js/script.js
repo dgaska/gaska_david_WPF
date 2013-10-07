@@ -61,6 +61,6 @@ var discountAmount = (discount/100) * orignalPrice; // expression to figure out 
 var discountPrice = orignalPrice - discountAmount; // expression to figure out discout price.
 var taxAmount = (salesTax/100) * discountPrice // expression to figure out tax amount.
 var priceWithTax = discountPrice + taxAmount // total price with discount and tax.
-var totalResults = "Your" + item + " " + "was originally $" + orignalPrice + ", but after a" + " " + discount + "% discount, it is now $" + discountPrice + " " + "without tax, and $" + priceWithTax + " " + "with tax."
-console.log(totalResults);
+var totalResults = "Your" + item + " " + "was originally $" + orignalPrice + ", but after a" + " " + discount + "% discount, it is now $" + discountPrice + " " + "without tax, and $" + priceWithTax + " " + "with tax." // print resluts
+console.log(totalResults); // uploaded print with console.log
 
