@@ -26,4 +26,12 @@ console.log(slicesResult); // printed result using console.log
 
 // Slice of Pie part II
 
+var wholeSlices = 2; // number of whole slices per person.
 
+var slicesAte = wholeSlices * people; // total number of whole slices ate.
+
+var totalSlices = pizzas * slices; // total number of slices.
+
+var remainder = totalSlices % slicesAte;
+
+console.log(remainder);
