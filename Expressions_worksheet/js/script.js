@@ -57,7 +57,10 @@ const orignalPrice = 599; // original price of item
 var discount = 15; // percentage discount
 var salesTax = 5; // sales tax percentage
 
-var discountAmount = (discount/100) * orignalPrice; 
-
-console.log(discountAmount);
+var discountAmount = (discount/100) * orignalPrice; // expression to figure out discount amount.
+var discountPrice = orignalPrice - discountAmount; // expression to figure out discout price.
+var taxAmount = (salesTax/100) * discountPrice // expression to figure out tax amount.
+var priceWithTax = discountPrice + taxAmount // total price with discount and tax.
+var totalResults = "Your" + item + " " + "was originally $" + orignalPrice + ", but after a" + " " + discount + "% discount, it is now $" + discountPrice + " " + "without tax, and $" + priceWithTax + " " + "with tax."
+console.log(totalResults);
 
