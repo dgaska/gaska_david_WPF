@@ -14,12 +14,16 @@ console.log(sparkysResult); // printed result using console.log
 
 // Slice of Pie part 1
 
-var slices = 7.8; // the number of slices per pizza
+var slices = 8; // the number of slices per pizza
 const people = 18; // the number of people at the party
 var pizzas = 6; // number of pizzas ordered
 
 var slicesPerPerson = pizzas * slices / people; // formula to figure out slices per person.
 
-var slicesResult = "Each person ate" + " " + slicesPerPerson + " " + "slices of pizza at the party."
+var slicesResult = "Each person ate" + " " + slicesPerPerson + " " + "slices of pizza at the party." // string result
 
-console.log(slicesResult);
+console.log(slicesResult); // printed result using console.log
+
+// Slice of Pie part II
+
+
