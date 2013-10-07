@@ -32,6 +32,8 @@ var slicesAte = wholeSlices * people; // total number of whole slices ate.
 
 var totalSlices = pizzas * slices; // total number of slices.
 
-var remainder = totalSlices % slicesAte;
+var remainder = totalSlices % slicesAte; // slices left over for Sparky.
 
-console.log(remainder);
+var sparkysSlices = "Sparky got" + " " + remainder + " " + "slices of pizza."
+
+console.log(sparkysSlices);
