@@ -44,6 +44,8 @@ var bills = [86, 104, 93, 150, 98]; // five weekly grocery bills.
 
 const totalBills = bills[0] + bills[1] + bills[2] + bills[3] + bills[4] //total of all items in the array
 
-var average = totalBills/5;
+var weeklyAverage = totalBills/5; // weekly average on groceries
 
-console.log(average);
+var budget = "You have spent a total of $" + totalBills + " " + "on groceries over 5 weeks. That is an average of $" + weeklyAverage + " " + "per week."
+
+console.log(budget);
