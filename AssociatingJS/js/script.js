@@ -5,7 +5,6 @@ var yearBorn = 1983
 console.log("hello World");
 console.log(yearBorn);
 
-alert("Hello World");
 // Defining Variables
 
 var age; //declaration
@@ -102,4 +101,15 @@ var a = 3;
 a += 4; //a = a +4
 //a ++ ; // a = a + 1 // a += 1
 console.log(a);
+
+//prompt and alert
+var userInput = prompt("Enter your year of birth");
+
+
+var width = prompt("We are calculating the area of a rectangle. \nPlease enter width");
+var height = prompt("Please enter the height");
+var area = width * height; // calculates
+//console.log(area); //prints it out to console
+
+alert("The area of your rectangle is " + area + " sq feet");
 
