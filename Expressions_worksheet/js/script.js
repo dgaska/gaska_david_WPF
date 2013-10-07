@@ -18,6 +18,8 @@ var slices = 7.8; // the number of slices per pizza
 const people = 18; // the number of people at the party
 var pizzas = 6; // number of pizzas ordered
 
-var slicesPerPerson = pizzas * slices / people;
+var slicesPerPerson = pizzas * slices / people; // formula to figure out slices per person.
 
-console.log(slicesPerPerson);
+var slicesResult = "Each person ate" + " " + slicesPerPerson + " " + "slices of pizza at the party."
+
+console.log(slicesResult);
