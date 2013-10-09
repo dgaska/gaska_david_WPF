@@ -8,11 +8,13 @@ var ozPerFeeding = prompt("Now enter in how many oz. per feeding your baby gets.
 
 var ozPerDay = timesDay * ozPerFeeding; // equation to find how many oz per day they feed their baby.
 
-console.log(ozPerDay);
+//console.log(ozPerDay);
 
 const days = 365; // Days in a year
 
-//var ozPerYear = ozPerDay * 365; // equation for how many oz in a year they feed their baby.
+var ozPerYear = ozPerDay * 365; // equation for how many oz in a year they feed their baby.
+
+console.log(ozPerYear);
 
 //var formulaPrice = prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up.")["Enfamil", "Similac", "Gerber", "Parent's Choice", "Up & Up"]; // an array giving a choice to how which formula the buy.
 
