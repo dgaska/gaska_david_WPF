@@ -17,10 +17,15 @@ var ozPerYear = ozPerDay * 365; // equation for how many oz in a year they feed 
 //console.log(ozPerYear);
 
 var formulaPrices = [25, 24, 24, 20, 24];//Array of formula choices 0-Enfamil 1-Similac 2-Gerber 3-Parent's Choice 4-Up & Up.
-var formulaChoice;
+var formulaChoice; //*********** JDALTON if you look at line 22 you have prompt. Set this vairable with that prompt 
 
 var formulaChoice = formulaPrices(prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up."));// a prompt giving a choice to how which formula the buy.
-
+//************** JDALTON Now to call an element of an array you don't use the () but the [ ] symbols
+// So in this example formulaPrices[0] would be equal to the first value of the array or 25
+// formulaPrices[1] would be equal to 24
+// So you can replace the number above with the variable formulaChoice.
+// Like this formulaPrices[formulaChoice]
+//So if the variable forumlaChoice = 0  then  formulaPrices[formulaChoice] = 25
 
 var amountPerYear = formulaChoice * ozPerYear;
 
