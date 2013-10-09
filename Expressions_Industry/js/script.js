@@ -28,4 +28,6 @@ var chickenPounds = chickenWeight * chicken;
 
 var totalPounds = hamPounds + turkeyPounds + chickenPounds;
 
-console.log(totalPounds);
+console.log("The total pounds of ham sliced is" + hamPounds +"lbs. The total weight of turkey sliced is" + turkeyPounds +"lbs, and the total weight of chicken sliced is" + chickenPounds + "lbs. Giving you a total of" + totalPounds + "lbs of meat sliced today.");
+
+
