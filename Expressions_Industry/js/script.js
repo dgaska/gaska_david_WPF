@@ -2,7 +2,7 @@
 
 // How Many Pounds Of Deli Meat Did You Slice Today?
 
-var ham = prompt("I want to calculate how many pounds of deli meat were sliced today. \nGiven that each ham weighed 5 pounds, How many hams did you slice?");
+var ham = prompt("I want to calculate how many pounds of deli meat were sliced today. \nGiven that each ham weighed 5 pounds, How many hams did you slice?"); 
 
 const hamWeight = 5;
 
@@ -24,5 +24,8 @@ const chickenWeight = 3;
 
 var chickenPounds = chickenWeight * chicken;
 
-console.log(chickenPounds);
+//console.log(chickenPounds);
 
+var totalPounds = hamPounds + turkeyPounds + chickenPounds;
+
+console.log(totalPounds);
