@@ -8,6 +8,8 @@ const hamWeight = 5;
 
 var hamPounds = hamWeight * ham;
 
-var turkey = prompt("Given that the turkeys are 4lbs each. \nHow many turkeys did you slice?");
+console.log(hamPounds);
 
-const turkeyWeight = 4;
+//var turkey = prompt("Given that the turkeys are 4lbs each. \nHow many turkeys did you slice?");
+
+//const turkeyWeight = 4;
