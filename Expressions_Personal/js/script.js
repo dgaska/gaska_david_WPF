@@ -14,15 +14,13 @@ const days = 365; // Days in a year
 
 var ozPerYear = ozPerDay * 365; // equation for how many oz in a year they feed their baby.
 
-console.log(ozPerYear);
+//console.log(ozPerYear);
 
-//var formulaPrice = prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up.")["Enfamil", "Similac", "Gerber", "Parent's Choice", "Up & Up"]; // an array giving a choice to how which formula the buy.
+var formulaPrices[25, 24, 24, 20, 24];//Array of formula choices 0-Enfamil 1-Similac 2-Gerber 3-Parent's Choice 4-Up & Up.
+var formulaChoice;
 
-formulaPrice[0] = 25;
-formulaPrice[1] = 24;
-formulaPrice[2] = 24;
-formulaPrice[3] = 20;
-formulaPrice[4] = 24;
+var formulaChoice = prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up."); // a prompt giving a choice to how which formula the buy.
+
 
 var amountPerYear = formulaPrice * ozPerYear;
 
