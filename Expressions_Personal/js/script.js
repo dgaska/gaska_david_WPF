@@ -17,32 +17,20 @@ var ozPerYear = ozPerDay * 365; // equation for how many .oz in a year they feed
 //console.log(ozPerYear);
 
 var formulaPrices = [.15, .14, .14, .07, .12];//Array of formula choices and their prices per .oz 0-Enfamil 1-Similac 2-Gerber 3-Parent's Choice 4-Up & Up.
-//<<<<<<< HEAD
 
 var formulaChoice = formulaPrices[prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up.")];// a prompt giving a choice to how which formula the buy.
 
-formulaPrices[formulaChoice] = .15;
-formulaPrices[formulaChoice] = .14;
-formulaPrices[formulaChoice] = .14;
-formulaPrices[formulaChoice] = .07;
-formulaPrices[formulaChoice] = .12; 
+formulaPrices[formulaChoice] = .15; // calling element of an array index 0 when prompted
+formulaPrices[formulaChoice] = .14; // calling element of an array index 1 when prompted
+formulaPrices[formulaChoice] = .14; // calling element of an array index 2 when prompted
+formulaPrices[formulaChoice] = .07; // calling element of an array index 3 when prompted
+formulaPrices[formulaChoice] = .12; // calling element of an array index 4 when prompted
 
-var totalSpent = ozPerYear * formulaChoice;
+var totalSpent = ozPerYear * formulaChoice; // calculating the total dollar amount spent on fomual per year
 
-console.log(totalSpent);
+console.log("You feed your baby " + ozPerYear + "oz per year, which means you spend $" + totalSpent + " per year on baby formula."); // printed result for how much you spend on baby formula.
 
-//console.log(formulaChoice);
-//=======
-//var formulaChoice; //*********** JDALTON if you look at line 22 you have prompt. Set this vairable with that prompt 
 
-//var formulaChoice = formulaPrices(prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up."));// a prompt giving a choice to how which formula the buy.
-//************** JDALTON Now to call an element of an array you don't use the () but the [ ] symbols
-// So in this example formulaPrices[0] would be equal to the first value of the array or 25
-// formulaPrices[1] would be equal to 24
-// So you can replace the number above with the variable formulaChoice.
-// Like this formulaPrices[formulaChoice]
-//So if the variable forumlaChoice = 0  then  formulaPrices[formulaChoice] = 25
-//>>>>>>> refs/remotes/origin/master
 
 
 
