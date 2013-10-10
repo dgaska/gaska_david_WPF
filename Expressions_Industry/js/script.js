@@ -29,7 +29,7 @@ var chickenPounds = chickenWeight * chicken; // calculation of pounds of ham sli
 var totalPounds = hamPounds + turkeyPounds + chickenPounds; // calculation of the total weight of hams
 
 console.log("The total pounds of ham sliced is" + hamPounds +"lbs. The total weight of turkey sliced is" + turkeyPounds +"lbs, and the total weight of chicken sliced is" + chickenPounds + "lbs. Giving you a total of" + totalPounds + "lbs of meat sliced today.");
-// the printed result in console for the whole problem.
+// the printed string result in console for the whole problem.
 
 
 
