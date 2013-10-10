@@ -26,7 +26,12 @@ formulaPrices[formulaChoice] = 24;
 formulaPrices[formulaChoice] = 24;
 formulaPrices[formulaChoice] = 20;
 formulaPrices[formulaChoice] = 24; 
-console.log(formulaChoice);
+
+var totalSpent = ozPerYear * formulaChoice;
+
+console.log(totalSpent);
+
+//console.log(formulaChoice);
 //=======
 //var formulaChoice; //*********** JDALTON if you look at line 22 you have prompt. Set this vairable with that prompt 
 
