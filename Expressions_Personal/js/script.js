@@ -17,9 +17,9 @@ var ozPerYear = ozPerDay * 365; // equation for how many oz in a year they feed 
 //console.log(ozPerYear);
 
 var formulaPrices = [25, 24, 24, 20, 24];//Array of formula choices 0-Enfamil 1-Similac 2-Gerber 3-Parent's Choice 4-Up & Up.
-var formulaChoice;
+var formulaChoice; 
 
-var formulaChoice = formulaPrices(prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up."));// a prompt giving a choice to how which formula the buy.
+var formulaChoice[formulaPrices] = prompt("Please select the brand you buy. \nEnter in a 0 for Enfamil, 1 for Similac, 2 for Gerber, 3 for Parent's Choice, 4 for Up & Up.");// a prompt giving a choice to how which formula the buy.
 
 
 var amountPerYear = formulaChoice * ozPerYear;
