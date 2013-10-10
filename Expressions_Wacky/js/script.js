@@ -6,5 +6,7 @@ var members = prompt("I want to calculate how many pieces of candy a family coll
 
 var candy = prompt("How many pieces of candy did your family collect?");
 
+var avgPerPerson = candy / members;
+
 
 
