@@ -10,3 +10,5 @@ var avgPerPerson = candy / members;
 
 var minutes = prompt("How many minutes did you spend out trick or treating?");
 
+var avgPerMinute = avgPerPerson / minutes;
+
