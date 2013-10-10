@@ -6,9 +6,13 @@ var members = prompt("I want to calculate how many pieces of candy a family coll
 
 var candy = prompt("How many pieces of candy did your family collect?");
 
-var avgPerPerson = candy / members;
+var avgPerPerson = candy/members;
 
-var minutes = prompt("How many minutes did you spend out trick or treating?");
+console.log(avgPerPerson);
+
+//var minutes = prompt("How many minutes did you spend out trick or treating?");
 
 var avgPerMinute = avgPerPerson / minutes;
+
+
 
