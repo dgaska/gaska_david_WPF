@@ -15,5 +15,6 @@ var gaugeDecimal = gauge / 100; // changes % to a decimal
 
 var howFarTotal = mpg * capacity * gaugeDecimal; // How far you can go on your current level of gas
 
-var leftInTank = capacity / gaugeDecimal; // Gives result of how much is left in tank
+var leftInTank = capacity * gaugeDecimal; // Gives result of how much is left in tank
 
+console.log(leftInTank);
