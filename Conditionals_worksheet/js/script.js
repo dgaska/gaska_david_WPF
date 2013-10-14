@@ -7,4 +7,7 @@
 var miles = 200;
 // if less than 200 have to stop for gas.
 
-var 
+var mpg = prompt("How many miles per gallon does your car get?");
+var gauge = prompt("What percentage of your gas tank is left?");
+var capacity = prompt("How many gallons of gas does your tank hold?");
+
