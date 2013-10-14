@@ -103,12 +103,12 @@ a += 4; //a = a +4
 console.log(a);
 
 //prompt and alert
-var userInput = prompt("Enter your year of birth");
+//var userInput = prompt("Enter your year of birth");
 
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter width");
-var height = prompt("Please enter the height");
-var area = width * height; // calculates
+//var width = prompt("We are calculating the area of a rectangle. \nPlease enter width");
+//var height = prompt("Please enter the height");
+//var area = width * height; // calculates
 //console.log(area); //prints it out to console
 
 alert("The area of your rectangle is " + area + " sq feet");
