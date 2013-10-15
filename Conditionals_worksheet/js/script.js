@@ -29,20 +29,21 @@ if(howFarTotal > miles){
 
 // Right Username
 // What happens when the wrong username and or password are entered in?
-/*var username = prompt("Enter in Username:");
+var username = prompt("Enter in Username:");
 var password = prompt("Enter in Password");
 
 var correctUsername = "Full Sail";
 var correctPassword = "JavaScript";
 
 
-if(username = correctUsername && password = correctPassword){
+
+if(username == correctUsername && password == correctPassword){
 	console.log("Welcome " + correctUsername + "!");
-}else if(username = false){
+}else if(username != correctUsername){
 	console.log("Username not found. Try again.");
 }else{
 	console.log("Password does not match our records.");
-}*/
+}
 
 // Movie Ticket Price
 // How much will it cost?
