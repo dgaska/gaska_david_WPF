@@ -15,12 +15,19 @@ var bottles = prompt("How many bottles(20oz) did you drink today?"); // asking h
 
 var bigBottles = prompt("How many big bottles(24oz) did you have?"); // asking how much in 24oz form
 
-var totalCans = cans * 12;
+var totalCans = cans * 12; // total oz for cans
 
-var totalBottles = bottles * 20;
+var totalBottles = bottles * 20; // total oz for bottles
 
-var totalBigBottles = bigBottles * 24;
+var totalBigBottles = bigBottles * 24; // Total oz for big bottles
 
+var ozTotal = totalCans + totalBottles + totalBigBottles
+
+if(oz < dailyLimit){
+	console.log("You have only had " + ozTotal + "oz of soda. You can still have more.");
+}else{
+	console.log("You have had too much soda. You can not have any more for today.");
+}
 
 
 
