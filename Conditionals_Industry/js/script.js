@@ -20,9 +20,10 @@ var inCooler = prompt("How many cases of chicken are left in the the coooler?");
 
 var coolerPackages = inCooler * packagesPerCase;
 
-if(coolerPackages + inCooler <= neededPackages){
+
+if(coolerPackages + onFloor <= neededPackages){
 	console.log("You need to order more chicken leg quarters for the weekend!");
-}else if(coolerPackages + inCooler > tooMany){
+}else if(coolerPackages + onFloor > tooMany){
 	console.log("You have too many packages already, must reduce the price for the weekend!");
 }else{
 	console.log("You have a good amount, no need to order more.");
