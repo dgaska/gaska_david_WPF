@@ -15,6 +15,12 @@ var bottles = prompt("How many bottles(20oz) did you drink today?"); // asking h
 
 var bigBottles = prompt("How many big bottles(24oz) did you have?"); // asking how much in 24oz form
 
+var totalCans = cans * 12;
+
+var totalBottles = bottles * 20;
+
+var totalBigBottles = bigBottles * 24;
+
 
 
 
