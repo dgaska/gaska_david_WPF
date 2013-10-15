@@ -13,15 +13,19 @@
 const packagesPerCase = 10;
 
 
-var onFloor = prompt("How many packages of chicken are left on the floor?");
+var comingIn = prompt("How many cases of chicken are coming in today?");
 
 var inCooler = prompt("How many cases of chicken are left in the the coooler?");
 
 var coolerPackages = inCooler * packagesPerCase;
 
-console.log(coolerPackages);
+var delivaryTotal = comingIn * packagesPerCase;
 
-/*var totalPackages = coolerPackages + onFloor;*/
+//console.log(coolerPackages);
+
+var totalPackages = delivaryTotal + coolerPackages;
+
+console.log(totalPackages);
 
 /*if(totalPackages <= 1000){
 	console.log("You need to order more chicken leg quarters for the weekend!");
