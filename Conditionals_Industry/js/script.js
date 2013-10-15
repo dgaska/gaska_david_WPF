@@ -7,6 +7,7 @@
 // a good amount to have is 1000 - 1500 packages
 // Do I need to order for the weekend or do we have enough?
 // We could also have way too much already and need to drop the price.
+// Whats on the sales for should be considered already sold as they will sell in one day usually
 
 
 
@@ -25,15 +26,15 @@ var delivaryTotal = comingIn * packagesPerCase;
 
 var totalPackages = delivaryTotal + coolerPackages;
 
-console.log(totalPackages);
+//console.log(totalPackages);
 
-/*if(totalPackages <= 1000){
+if(totalPackages <= 1000){
 	console.log("You need to order more chicken leg quarters for the weekend!");
 }else if(totalPackages >= 1500){
 	console.log("You have too many packages already, must reduce the price for the weekend!");
 }else{
 	console.log("You have a good amount, no need to order more.");
-}*/
+}
 
 
 
