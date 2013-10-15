@@ -21,11 +21,13 @@ var totalBottles = bottles * 20; // total oz for bottles
 
 var totalBigBottles = bigBottles * 24; // Total oz for big bottles
 
-var ozTotal = totalCans + totalBottles + totalBigBottles
+var ozTotal = totalCans + totalBottles + totalBigBottles // total of all the of soda.
 
 if(ozTotal < dailyLimit){
+	// Will print if I can still have some soda
 	console.log("You have only had " + ozTotal + "oz of soda. You can still have more.");
 }else{
+	// Will print if I can not have any more soda
 	console.log("You have had too much soda. You can not have any more for today.");
 }
 
