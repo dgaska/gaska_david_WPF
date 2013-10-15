@@ -6,5 +6,13 @@
 // each pallet has 50 cases with 10 packages of chicken in each case
 // How many cases should be order to keep up with weekend sales?
 
+const neededPackages = 1000;
+
+const packagesPerCase = 10;
+
+var onFloor = prompt("How many packages of chicken are left on the floor?");
+
+var inCooler = prompt("How many cases of chicken are left in the the coooler?");
+
 
 
