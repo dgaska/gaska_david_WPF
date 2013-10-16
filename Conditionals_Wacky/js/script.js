@@ -12,12 +12,14 @@ var loads = prompt("How many loads do you have to do?");
 
 var washTime = prompt("How long do you put your laundry in the washer for in minutes?");
 
-var dryTime = prompt("How long do you put your laundry in the dyer for?");
+var dryTime = prompt("How long do you put your laundry in the dryer for?");
 
 var hours = prompt("How many hours do you have before you leave?");
 
-var minutes = hours * 60;
+var minutesLeft = hours * 60;
 
 var totalWashTime = washTime + dryTime;
 
 var totalLaundryTime = totalWashTime * loads;
+
+(minutesLeft > totalLaundryTime) ? console.log("Yes, you do have time to complete your laundry.") : console.log("You have too much laundry and not enough time.");
