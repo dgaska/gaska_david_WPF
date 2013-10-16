@@ -18,8 +18,9 @@ var hours = prompt("How many hours do you have before you leave?");
 
 var minutesLeft = hours * 60;
 
-var totalWashTime = washTime + dryTime;
+console.log(minutesLeft);
+//var totalWashTime = washTime + dryTime;
 
-var totalLaundryTime = totalWashTime * loads;
+//var totalLaundryTime = totalWashTime * loads;
 
-(minutesLeft > totalLaundryTime) ? console.log("Yes, you do have time to complete your laundry.") : console.log("You have too much laundry and not enough time.");
+/*(minutesLeft > totalLaundryTime) ? console.log("Yes, you do have time to complete your laundry.") : console.log("You have too much laundry and not enough time.");*/
