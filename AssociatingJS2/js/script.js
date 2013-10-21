@@ -93,3 +93,41 @@ var book;
 book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 console.log(book);
 
+//loops
+
+var b = 10; // setups the index
+
+while (b > 0){// checks the condition
+	console.log(b + "kegs on the wall");
+	b--; // increments or decrements the index
+}
+
+// do while loop
+
+var c = 10;
+
+do{
+	console.log(c + "kegs on the wall");
+	c--;
+}
+while(c > 0);
+
+// for loop
+
+for (var i = 10; i > 0; i--){
+	console.log(i + "kegs on the wall")
+}
+
+// normal functions
+
+function outptMsg(){
+	console.log("Hello World");
+}
+
+function calcArea(){
+	var width = 20;
+	var height = 30;
+	var area = width * height;
+	console.log(area);
+}
+
