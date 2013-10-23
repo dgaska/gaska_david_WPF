@@ -5,7 +5,7 @@
 
 function lunchHour(hours){//my function
 
-if(hours <= 7){ //if nothing is entered
+if(hours <= 7){//if you start at 7am or earlier
 	console.log("You lunch is at noon");
 }else if(hours > 7 && hours <= 9){ // if you start later than 7am or but before 10am
 	console.log("Your lunch is at one.");
