@@ -10,3 +10,7 @@ var toast = prompt("I am collecting data to find out how much bread a person use
 var sandwich = prompt("How many sandwiches do u make in a week?") * 2; // prompt to collect number of sandwiches are made and then multiply by 2 since you normally use 2 slices of bread.
 
 //console.log(sandwich); making sure sandwich data is collect properly
+
+var slices = toast + sandwich;
+
+console.log(slices);
