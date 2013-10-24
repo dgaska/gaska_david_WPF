@@ -11,6 +11,6 @@ var sandwich = prompt("How many sandwiches do u make in a week?") * 2; // prompt
 
 //console.log(sandwich); making sure sandwich data is collect properly
 
-var slices = toast + sandwich;
+var slices = toast * 1 + sandwich * 1;
 
 console.log(slices);
