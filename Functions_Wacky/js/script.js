@@ -10,7 +10,7 @@ var totalLoafs = function(toast, sandwich){
 	var loafs = toast * 1 + sandwich * 1 / 26;
 	return var;
 }
-var toast = prompt("I am collecting data to find out how much bread a person uses in a week. \nHow many pieces of toast do you make in a week?"); // prompt to collect how many pieces of toast
-var sandwich = prompt("How many sandwiches do u make in a week?") * 2; // prompt to collect number of sandwiches are made and then multiply by 2 since you normally use 2 slices of bread.
+totalLoafs = prompt("I am collecting data to find out how much bread a person uses in a week. \nHow many pieces of toast do you make in a week?"),prompt("How many sandwiches do u make in a week?") * 2; // prompt to collect how many pieces of toast
+ // prompt to collect number of sandwiches are made and then multiply by 2 since you normally use 2 slices of bread.
 
 //console.log(sandwich); making sure sandwich data is collect properly
